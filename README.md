@@ -1,18 +1,10 @@
-# README for a newly created project.
+CSS NYAN CAT
+========
 
-There are a couple of things you should do first, before you can use all of Git's power:
+#### Pure CSS Mem ####
 
-  * Add a remote to this project: in the Cloud9 IDE command line, you can execute the following commands
-    `git remote add [remote name] [remote url (eg. 'git@github.com:/ajaxorg/node_chat')]` [Enter]
-  * Create new files inside your project
-  * Add them to to Git by executing the following command
-    `git add [file1, file2, file3, ...]` [Enter]
-  * Create a commit which can be pushed to the remote you just added
-    `git commit -m 'added new files'` [Enter]
-  * Push the commit the remote
-    `git push [remote name] master` [Enter]
+CSS NYAN CAT was created by [Michał Budzyński](https://profiles.google.com/michal.budzynski.js/about) for [Mozilla Demo Party](http://mozillalabs.com/demoparty/helsinki) in Helsinki on 18.06.2011.
 
-That's it! If this doesn't work for you, please visit the excellent resources from [Github.com](http://help.github.com) and the [Pro Git](http://http://progit.org/book/) book.
-If you can't find your answers there, feel free to ask us via Twitter (@cloud9ide), [mailing list](groups.google.com/group/cloud9-ide) or IRC (#cloud9ide on freenode).
 
-Happy coding!
+It contains **81 DOM elements**, **492 lines of pure CSS** and **one JavaScript function** for
+looping audio. My CSS **fails **CSSLint test and I'm really proud of this. See you on [onGameStart, first HTMl5 game conference ever](http://ongamestart.com/)!
