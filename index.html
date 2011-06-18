@@ -6,7 +6,7 @@
     </head>
 
     <body>
-        CSS NYAN CAT is created by <a href="https://profiles.google.com/michal.budzynski.js/about">Michał Budzyński</a> for <a href="http://mozillalabs.com/demoparty/helsinki">Mozilla Demo Party</a> in Helsinki on 18.06.2011.
+        CSS NYAN CAT was created by <a href="https://profiles.google.com/michal.budzynski.js/about">Michal Budzynski</a> for <a href="http://mozillalabs.com/demoparty/helsinki">Mozilla Demo Party</a> in Helsinki on 18.06.2011.
         <div id="mainContainer">
             <div id="nyanCat">
                 <div id="wholeHead">
@@ -93,13 +93,25 @@
                 <div number="8"></div>
             </div>
         </div>
-        <div id="description">It contains 81 DOM elements, 492 lines of pure CSS and one JavaScript function for <br/>looping audio. My CSS fails CSSLint test and I'm really proud of this. <a href="https://github.com/michalbe/css-nyan-cat">Fork me on GitHub</a>,<br/>and see you on <a href="http://ongamestart.com/">onGameStart, first HTML5 game conference ever</a>!</div>
+        <div id="description">It contains 81 DOM elements, 688 lines of pure CSS and one JavaScript function for <br/>looping audio. My CSS fails CSSLint test and I'm really proud of this. <a href="https://github.com/michalbe/css-nyan-cat">Fork me on GitHub</a>,<br/>and see you on <a href="http://ongamestart.com/">onGameStart, first HTML5 game conference ever</a>!</div>
         <audio loop="loop" src="nyancat.ogg" autoplay="true">
         <script>
             document.getElementsByTagName('audio')[0].addEventListener('ended', function(){
                 this.currentTime = 0;
             }, false);
         </script>
+        <script type="text/javascript">
+    //GOOGLE ANALITICS
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-24051618-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
     </body>
 </html>
- 
