@@ -365,6 +365,7 @@ a {
     left: -40px;
     -moz-animation: rainbow1 0.3s linear 0s infinite;
     -webkit-animation: rainbow1 0.3s linear 0s infinite;
+    z-index: 15;
 }
 .r2 {
     left: -85px;
