@@ -1145,7 +1145,7 @@ a {
 }
 
 .star div[number="4"] {
-    left: 0px;
+    left: 0;
     top: 16px;
     -moz-animation-name: star4;
     -webkit-animation-name: star4;
