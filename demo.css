@@ -59,27 +59,81 @@ a {
 /* -- head -- */
 
 @-moz-keyframes wholeHead {
-    0% { top: -15px; left: 0;}
-    24.99% { top: -15px; left: 0;}
-    25% { top: -10px; left: 5px; }
-    49.99% { top: -10px; left:5px; }
-    50% { top: -5px; left: 0; }
-    74.99% { top: -5px; left: 0; }
-    75% { top: -10px; left: -5px; }
-    99.99% { top: -10px; left: -5px;}
-    100% { top: -15px; left: 0;}
+    0% {
+        top: -15px;
+        left: 0;
+    }
+    24.99% {
+        top: -15px;
+        left: 0;
+    }
+    25% {
+        top: -10px;
+        left: 5px;
+    }
+    49.99% {
+        top: -10px;
+        left: 5px;
+    }
+    50% {
+        top: -5px;
+        left: 0;
+    }
+    74.99% {
+        top: -5px;
+        left: 0;
+    }
+    75% {
+        top: -10px;
+        left: -5px;
+    }
+    99.99% {
+        top: -10px;
+        left: -5px;
+    }
+    100% {
+        top: -15px;
+        left: 0;
+    }
 }
 
 @-webkit-keyframes wholeHead {
-    0% { top: -15px; left: 0;}
-    24.99% { top: -15px; left: 0;}
-    25% { top: -10px; left: 5px; }
-    49.99% { top: -10px; left:5px; }
-    50% { top: -5px; left: 0; }
-    74.99% { top: -5px; left: 0; }
-    75% { top: -10px; left: -5px; }
-    99.99% { top: -10px; left: -5px;}
-    100% { top: -15px; left: 0;}
+    0% {
+        top: -15px;
+        left: 0;
+    }
+    24.99% {
+        top: -15px;
+        left: 0;
+    }
+    25% {
+        top: -10px;
+        left: 5px;
+    }
+    49.99% {
+        top: -10px;
+        left: 5px;
+    }
+    50% {
+        top: -5px;
+        left: 0;
+    }
+    74.99% {
+        top: -5px;
+        left: 0;
+    }
+    75% {
+        top: -10px;
+        left: -5px;
+    }
+    99.99% {
+        top: -10px;
+        left: -5px;
+    }
+    100% {
+        top: -15px;
+        left: 0;
+    }
 }
 
 #wholeHead {
@@ -170,67 +224,67 @@ a {
 /* -- tail -- */
 
 @-moz-keyframes midTail {
-    0% { top: 52px;}
+    0% { top: 52px; }
     24.99% { top: 52px; }
-    25% { top: 56px;}
-    49.99% { top: 56px;}
+    25% { top: 56px; }
+    49.99% { top: 56px; }
     50% { top: 60px;}
-    74.99% { top: 60px;}
+    74.99% { top: 60px; }
     75% { top: 56px;}
-    99.99% { top: 56px;}
-    100% { top: 52px;}
+    99.99% { top: 56px; }
+    100% { top: 52px; }
 }
 
 @-webkit-keyframes midTail {
-    0% { top: 52px;}
+    0% { top: 52px; }
     24.99% { top: 52px; }
-    25% { top: 56px;}
-    49.99% { top: 56px;}
+    25% { top: 56px; }
+    49.99% { top: 56px; }
     50% { top: 60px;}
-    74.99% { top: 60px;}
-    75% { top: 56px;}
-    99.99% { top: 56px;}
-    100% { top: 52px;}
+    74.99% { top: 60px; }
+    75% { top: 56px; }
+    99.99% { top: 56px; }
+    100% { top: 52px; }
 }
 
 @-moz-keyframes backTail {
-    0% { top: 48px;}
+    0% { top: 48px; }
     12.49% { top: 48px; }
-    12.50% { top: 52px;}
-    24.99% { top: 52px;}
-    25% { top: 56px;}
-    37.49% { top: 56px;}
+    12.50% { top: 52px; }
+    24.99% { top: 52px; }
+    25% { top: 56px; }
+    37.49% { top: 56px; }
     37.5% { top: 60px; }
     49.99% { top: 60px; }
     50% { top: 64px; }
     62.49% { top: 64px; }
     62.5% { top: 60px; }
     74.99% { top: 60px; }
-    75% { top: 56px;}
-    87.49% { top: 56px;}
-    87.5% { top: 52px;}
-    99.99% { top: 52px;}
-    100% { top: 48px;}
+    75% { top: 56px; }
+    87.49% { top: 56px; }
+    87.5% { top: 52px; }
+    99.99% { top: 52px; }
+    100% { top: 48px; }
 }
 
 @-webkit-keyframes backTail {
-    0% { top: 48px;}
+    0% { top: 48px; }
     12.49% { top: 48px; }
-    12.50% { top: 52px;}
-    24.99% { top: 52px;}
-    25% { top: 56px;}
-    37.49% { top: 56px;}
+    12.50% { top: 52px; }
+    24.99% { top: 52px; }
+    25% { top: 56px; }
+    37.49% { top: 56px; }
     37.5% { top: 60px; }
     49.99% { top: 60px; }
     50% { top: 64px; }
     62.49% { top: 64px; }
     62.5% { top: 60px; }
     74.99% { top: 60px; }
-    75% { top: 56px;}
-    87.49% { top: 56px;}
-    87.5% { top: 52px;}
-    99.99% { top: 52px;}
-    100% { top: 48px;}
+    75% { top: 56px; }
+    87.49% { top: 56px; }
+    87.5% { top: 52px; }
+    99.99% { top: 52px; }
+    100% { top: 48px; }
 }
 
 #wholeTail {
@@ -268,27 +322,81 @@ a {
 /* -- legs -- */
 
 @-moz-keyframes letsDanceBeeAch {
-    0% { top: 0px; left: 0;}
-    24.99% { top: 0px; left: 0;}
-    25% { top: 5px; left: 5px; }
-    49.99% { top: 5px; left:5px; }
-    50% { top: 10px; left: 0; }
-    74.99% { top: 10px; left: 0; }
-    75% { top: 5px; left: -5px; }
-    99.99% { top: 5px; left: -5px;}
-    100% { top: 0px; left: 0;}
+    0% {
+        top: 0;
+        left: 0;
+    }
+    24.99% {
+        top: 0;
+        left: 0;
+    }
+    25% {
+        top: 5px;
+        left: 5px;
+    }
+    49.99% {
+        top: 5px;
+        left:5px;
+    }
+    50% {
+        top: 10px;
+        left: 0;
+    }
+    74.99% {
+        top: 10px;
+        left: 0;
+    }
+    75% {
+        top: 5px;
+        left: -5px;
+    }
+    99.99% {
+        top: 5px;
+        left: -5px;
+    }
+    100% {
+        top: 0;
+        left: 0;
+    }
 }
 
 @-webkit-keyframes letsDanceBeeAch {
-    0% { top: 0px; left: 0;}
-    24.99% { top: 0px; left: 0;}
-    25% { top: 5px; left: 5px; }
-    49.99% { top: 5px; left:5px; }
-    50% { top: 10px; left: 0; }
-    74.99% { top: 10px; left: 0; }
-    75% { top: 5px; left: -5px; }
-    99.99% { top: 5px; left: -5px;}
-    100% { top: 0px; left: 0;}
+    0% {
+        top: 0;
+        left: 0;
+    }
+    24.99% {
+        top: 0;
+        left: 0;
+    }
+    25% {
+        top: 5px;
+        left: 5px;
+    }
+    49.99% {
+        top: 5px;
+        left: 5px;
+    }
+    50% {
+        top: 10px;
+        left: 0;
+    }
+    74.99% {
+        top: 10px;
+        left: 0;
+    }
+    75% {
+        top: 5px;
+        left: -5px;
+    }
+    99.99% {
+        top: 5px;
+        left: -5px;
+    }
+    100% {
+        top: 0;
+        left: 0;
+    }
 }
 
 #allYourLegAreBelongToUs {
@@ -394,31 +502,97 @@ a {
 /* -- stars -- */
 
 @-moz-keyframes star1 {
-    0% { top: 0; height: 5px;}
-    33.19% { top: 0; height: 5px; }
-    33.2% { height:10px; top:0; }
-    49.79% { height:10px; top:0; }
-    49.8% { height:10px; top:5px; }
-    66.39% {height:10px; top:5px; }
-    66.4% { height:5px; top:10px;}
-    82.99% { height:5px; top:10px;}
-    83% { height: 5px; top: 15px; }
-    99.99% { height: 5px; top: 15px; }
-    100% { top: 0; height: 5px; }
+    0% {
+        top: 0;
+        height: 5px;
+    }
+    33.19% {
+        top: 0;
+        height: 5px;
+    }
+    33.2% {
+        height: 10px;
+        top: 0;
+    }
+    49.79% {
+        height: 10px;
+        top: 0;
+    }
+    49.8% {
+        height: 10px;
+        top: 5px;
+    }
+    66.39% {
+        height: 10px;
+        top: 5px;
+    }
+    66.4% {
+        height: 5px;
+        top: 10px;
+    }
+    82.99% {
+        height: 5px;
+        top: 10px;
+    }
+    83% {
+        height: 5px;
+        top: 15px;
+    }
+    99.99% {
+        height: 5px;
+        top: 15px;
+    }
+    100% {
+        top: 0;
+        height: 5px;
+    }
 }
 
 @-webkit-keyframes star1{
-    0% { top: 0; height: 5px;}
-    33.19% { top: 0; height: 5px; }
-    33.2% { height:10px; top:0; }
-    49.79% { height:10px; top:0; }
-    49.8% { height:10px; top:5px; }
-    66.39% {height:10px; top:5px; }
-    66.4% { height:5px; top:10px;}
-    82.99% { height:5px; top:10px;}
-    83% { height: 5px; top: 15px; }
-    99.99% { height: 5px; top: 15px; }
-    100% { top: 0; height: 5px; }
+    0% {
+        top: 0;
+        height: 5px;
+    }
+    33.19% {
+        top: 0;
+        height: 5px;
+    }
+    33.2% {
+        height: 10px;
+        top: 0;
+    }
+    49.79% {
+        height: 10px;
+        top: 0;
+    }
+    49.8% {
+        height: 10px;
+        top: 5px;
+    }
+    66.39% {
+        height: 10px;
+        top: 5px;
+    }
+    66.4% {
+        height: 5px;
+        top: 10px;
+    }
+    82.99% {
+        height: 5px;
+        top: 10px;
+    }
+    83% {
+        height: 5px;
+        top: 15px;
+    }
+    99.99% {
+        height: 5px;
+        top: 15px;
+    }
+    100% {
+        top: 0;
+        height: 5px;
+    }
 }
 
 @-moz-keyframes star2-3-6-7 {
@@ -440,87 +614,309 @@ a {
 }
 
 @-moz-keyframes star4 {
-    0% { left: 0; width: 5px; visibility: visible;}
-    33.19% { left: 0; width: 5px; }
-    33.2% { width:10px; left:0; }
-    49.79% { width:10px; left:0; }
-    49.8% { width:10px; left:5px; }
-    66.39% {width:10px; left:5px; }
-    66.4% { width:5px; left:10px;}
-    82.99% { width:5px; left:10px;}
-    83% { width: 5px; left: 15px; visibility:hidden;}
-    99.99% { width: 5px; left: 15px; visibility:hidden;}
-    100% { left: 0; width: 5px; visibility:hidden;}
+    0% {
+        left: 0;
+        width: 5px;
+        visibility: visible;
+    }
+    33.19% {
+        left: 0;
+        width: 5px;
+    }
+    33.2% {
+        width: 10px;
+        left: 0;
+    }
+    49.79% {
+        width: 10px;
+        left: 0;
+    }
+    49.8% {
+        width: 10px;
+        left: 5px;
+    }
+    66.39% {
+        width: 10px;
+        left: 5px;
+    }
+    66.4% {
+        width: 5px;
+        left: 10px;
+    }
+    82.99% {
+        width: 5px;
+        left: 10px;
+    }
+    83% {
+        width: 5px;
+        left: 15px;
+        visibility: hidden;
+    }
+    99.99% {
+        width: 5px;
+        left: 15px;
+        visibility: hidden;
+    }
+    100% {
+        left: 0;
+        width: 5px;
+        visibility: hidden;
+    }
 }
 
 @-webkit-keyframes star4 {
-    0% { left: 0; width: 5px; visibility: visible;}
-    33.19% { left: 0; width: 5px; }
-    33.2% { width:10px; left:0; }
-    49.79% { width:10px; left:0; }
-    49.8% { width:10px; left:5px; }
-    66.39% {width:10px; left:5px; }
-    66.4% { width:5px; left:10px;}
-    82.99% { width:5px; left:10px;}
-    83% { width: 5px; left: 15px; visibility:hidden;}
-    99.99% { width: 5px; left: 15px; visibility:hidden;}
-    100% { left: 0; width: 5px; visibility:hidden;}
+    0% {
+        left: 0;
+        width: 5px;
+        visibility: visible;
+    }
+    33.19% {
+        left: 0;
+        width: 5px;
+    }
+    33.2% {
+        width: 10px;
+        left: 0;
+    }
+    49.79% {
+        width: 10px;
+        left: 0;
+    }
+    49.8% {
+        width: 10px;
+        left: 5px;
+    }
+    66.39% {
+        width: 10px;
+        left: 5px;
+    }
+    66.4% {
+        width: 5px;
+        left: 10px;
+    }
+    82.99% {
+        width: 5px;
+        left: 10px;
+    }
+    83% {
+        width: 5px;
+        left: 15px;
+        visibility: hidden;
+    }
+    99.99% {
+        width: 5px;
+        left: 15px;
+        visibility: hidden;
+    }
+    100% {
+        left: 0;
+        width: 5px;
+        visibility: hidden;
+    }
 }
 
 @-moz-keyframes star5 {
-    0% { left: 38px; width: 5px; visibility: visible;}
-    33.19% { left: 38px; width: 5px; }
-    33.2% { width:10px; left:33px; }
-    49.79% { width:10px; left:33px; }
-    49.8% { width:10px; left:28px; }
-    66.39% {width:10px; left:28px; }
-    66.4% { width:5px; left:28px;}
-    82.99% { width:5px; left:28px;}
-    83% { width: 5px; left: 15px; visibility:hidden;}
-    99.99% { width: 5px; left: 15px; visibility:hidden;}
-    100% { left: 0; width: 5px; visibility:hidden;}
+    0% {
+        left: 38px;
+        width: 5px;
+        visibility: visible;
+    }
+    33.19% {
+        left: 38px;
+        width: 5px;
+    }
+    33.2% {
+        width: 10px;
+        left: 33px;
+    }
+    49.79% {
+        width: 10px;
+        left: 33px;
+    }
+    49.8% {
+        width: 10px;
+        left: 28px;
+    }
+    66.39% {
+        width: 10px;
+        left: 28px;
+    }
+    66.4% {
+        width: 5px;
+        left: 28px;
+    }
+    82.99% {
+        width: 5px;
+        left: 28px;
+    }
+    83% {
+        width: 5px;
+        left: 15px;
+        visibility: hidden;
+    }
+    99.99% {
+        width: 5px;
+        left: 15px;
+        visibility: hidden;
+    }
+    100% {
+        left: 0;
+        width: 5px;
+        visibility: hidden;
+    }
 }
 
 @-webkit-keyframes star5 {
-    0% { left: 38px; width: 5px; visibility: visible;}
-    33.19% { left: 38px; width: 5px; }
-    33.2% { width:10px; left:33px; }
-    49.79% { width:10px; left:33px; }
-    49.8% { width:10px; left:28px; }
-    66.39% {width:10px; left:28px; }
-    66.4% { width:5px; left:28px;}
-    82.99% { width:5px; left:28px;}
-    83% { width: 5px; left: 15px; visibility:hidden;}
-    99.99% { width: 5px; left: 15px; visibility:hidden;}
-    100% { left: 0; width: 5px; visibility:hidden;}
+    0% {
+        left: 38px;
+        width: 5px;
+        visibility: visible;
+    }
+    33.19% {
+        left: 38px;
+        width: 5px;
+    }
+    33.2% {
+        width: 10px;
+        left: 33px;
+    }
+    49.79% {
+        width: 10px;
+        left: 33px;
+    }
+    49.8% {
+        width: 10px;
+        left: 28px;
+    }
+    66.39% {
+        width: 10px;
+        left: 28px;
+    }
+    66.4% {
+        width: 5px;
+        left: 28px;
+    }
+    82.99% {
+        width: 5px;
+        left: 28px;
+    }
+    83% {
+        width: 5px;
+        left: 15px;
+        visibility: hidden;
+    }
+    99.99% {
+        width: 5px;
+        left: 15px;
+        visibility: hidden;
+    }
+    100% {
+        left: 0;
+        width: 5px;
+        visibility: hidden;
+    }
 }
 
 @-moz-keyframes star8 {
-    0% { top: 32px; height: 5px; visibility:visible;}
-    33.19% { top: 32px; height: 5px; }
-    33.2% { height:10px; top:28px; }
-    49.79% { height:10px; top:28px; }
-    49.8% { height:10px; top:23px; }
-    66.39% {height:10px; top:23px; }
-    66.4% { height:5px; top:18px;}
-    82.99% { height:5px; top:18px;}
-    83% { height: 5px; top: 15px; visibility:hidden;}
-    99.99% { height: 5px; top: 15px; visibility:hidden;}
-    100% { top: 0; height: 5px; visibility:hidden;}
+    0% {
+        top: 32px;
+        height: 5px;
+        visibility: visible;
+    }
+    33.19% {
+        top: 32px;
+        height: 5px;
+    }
+    33.2% {
+        height: 10px;
+        top: 28px;
+    }
+    49.79% {
+        height: 10px;
+        top: 28px;
+    }
+    49.8% {
+        height: 10px;
+        top: 23px;
+    }
+    66.39% {
+        height: 10px;
+        top: 23px;
+    }
+    66.4% {
+        height: 5px;
+        top: 18px;
+    }
+    82.99% {
+        height: 5px;
+        top: 18px;
+    }
+    83% {
+        height: 5px;
+        top: 15px;
+        visibility: hidden;
+    }
+    99.99% {
+        height: 5px;
+        top: 15px;
+        visibility: hidden;
+    }
+    100% {
+        top: 0;
+        height: 5px;
+        visibility: hidden;
+    }
 }
 
 @-webkit-keyframes star8 {
-    0% { top: 32px; height: 5px; visibility:visible;}
-    33.19% { top: 32px; height: 5px; }
-    33.2% { height:10px; top:28px; }
-    49.79% { height:10px; top:28px; }
-    49.8% { height:10px; top:23px; }
-    66.39% {height:10px; top:23px; }
-    66.4% { height:5px; top:18px;}
-    82.99% { height:5px; top:18px;}
-    83% { height: 5px; top: 15px; visibility:hidden;}
-    99.99% { height: 5px; top: 15px; visibility:hidden;}
-    100% { top: 0; height: 5px; visibility:hidden;}
+    0% {
+        top: 32px;
+        height: 5px;
+        visibility: visible;
+    }
+    33.19% {
+        top: 32px;
+        height: 5px;
+    }
+    33.2% {
+        height: 10px;
+        top: 28px;
+    }
+    49.79% {
+        height: 10px;
+        top: 28px;
+    }
+    49.8% {
+        height: 10px;
+        top: 23px;
+    }
+    66.39% {
+        height: 10px;
+        top: 23px;
+    }
+    66.4% {
+        height: 5px;
+        top: 18px;
+    }
+    82.99% {
+        height: 5px;
+        top: 18px;
+    }
+    83% {
+        height: 5px;
+        top: 15px;
+        visibility: hidden;
+    }
+    99.99% {
+        height: 5px;
+        top: 15px;
+        visibility: hidden;
+    }
+    100% {
+        top: 0;
+        height: 5px;
+        visibility: hidden;
+    }
 }
 
 .star {
@@ -598,13 +994,25 @@ a {
 }
 
 @-moz-keyframes starMovement1 {
-    0% { top: 80px; left: 600px}
-    100% { top: 80px; left: 0px;}
+    0% {
+        top: 80px;
+        left: 600px;
+    }
+    100% {
+        top: 80px;
+        left: 0px;
+    }
 }
 
 @-webkit-keyframes starMovement1 {
-    0% { top: 80px; left: 600px}
-    100% { top: 80px; left: 0px;}
+    0% {
+        top: 80px;
+        left: 600px;
+    }
+    100% {
+        top: 80px;
+        left: 0px;
+    }
 }
 
 .starMovement1 {
@@ -613,13 +1021,25 @@ a {
 }
 
 @-moz-keyframes starMovement2 {
-    0% { top: -10px; left: 800px}
-    100% { top: -10px; left: -100px;}
+    0% {
+        top: -10px;
+        left: 800px;
+    }
+    100% {
+        top: -10px;
+        left: -100px;
+    }
 }
 
 @-webkit-keyframes starMovement2{
-    0% { top: -10px; left: 800px}
-    100% { top: -10px; left: -100px;}
+    0% {
+        top: -10px;
+        left: 800px;
+    }
+    100% {
+        top: -10px;
+        left: -100px;
+    }
 }
 
 .starMovement2 {
@@ -628,13 +1048,25 @@ a {
 }
 
 @-moz-keyframes starMovement3 {
-    0% { top: 270px; left: 728px}
-    100% { top: 270px; left: -172px;}
+    0% {
+        top: 270px;
+        left: 728px
+    }
+    100% {
+        top: 270px;
+        left: -172px;
+    }
 }
 
 @-webkit-keyframes starMovement3 {
-    0% { top: 270px; left: 728px}
-    100% { top: 270px; left: -172px;}
+    0% {
+        top: 270px;
+        left: 728px
+    }
+    100% {
+        top: 270px;
+        left: -172px;
+    }
 }
 
 .starMovement3 {
@@ -643,13 +1075,25 @@ a {
 }
 
 @-moz-keyframes starMovement4 {
-    0% { top: 160px; left: 2300px}
-    100% { top: 160px; left: -100px;}
+    0% {
+        top: 160px;
+        left: 2300px;
+    }
+    100% {
+        top: 160px;
+        left: -100px;
+    }
 }
 
 @-webkit-keyframes starMovement4 {
-    0% { top: 160px; left: 2300px}
-    100% { top: 160px; left: -100px;}
+    0% {
+        top: 160px;
+        left: 2300px
+    }
+    100% {
+        top: 160px;
+        left: -100px;
+    }
 }
 
 .starMovement4 {
@@ -658,13 +1102,25 @@ a {
 }
 
 @-moz-keyframes starMovement5 {
-    0% { top: 130px; left: 1100px}
-    100% { top: 130px; left: -100px;}
+    0% {
+        top: 130px;
+        left: 1100px
+    }
+    100% {
+        top: 130px;
+        left: -100px;
+    }
 }
 
 @-webkit-keyframes starMovement5 {
-    0% { top: 130px; left: 1100px}
-    100% { top: 130px; left: -100px;}
+    0% {
+        top: 130px;
+        left: 1100px;
+    }
+    100% {
+        top: 130px;
+        left: -100px;
+    }
 }
 
 .starMovement5 {
