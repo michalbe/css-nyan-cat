@@ -1,5 +1,5 @@
 body {
-    background-color:#1c4170;
+    background-color: #1c4170;
     color: #fff;
     font-family: Arial;
 }
@@ -33,27 +33,27 @@ a {
 }
 
 #toastBody {
-    background-color:#fad695;
-	width:100px;
-	height: 70px;
-	border: solid #000 5px;
-	border-radius: 15px;
-	padding: 2px;
-	position:absolute;
-    z-index:19;
+    background-color: #fad695;
+    width: 100px;
+    height: 70px;
+    border: solid #000 5px;
+    border-radius: 15px;
+    padding: 2px;
+    position: absolute;
+    z-index: 19;
     -moz-animation: toastBody 0.8s linear 0s infinite;
     -webkit-animation: toastBody 0.8s linear 0s infinite;
 }
 
 #toastBody > div {
-	width:100px;
-	height:70px;
-	border-radius: 30px;
-	background-color: #fc9dff;
-	display:block;
-	color: #da3eb9;
-	font-size: 40px;
-	line-height: 10px;
+    width: 100px;
+    height: 70px;
+    border-radius: 30px;
+    background-color: #fc9dff;
+    display: block;
+    color: #da3eb9;
+    font-size: 40px;
+    line-height: 10px;
 }
 
 /* -- head -- */
@@ -69,7 +69,7 @@ a {
     99.99% { top: -10px; left: -5px;}
     100% { top: -15px; left: 0;}
 }
- 
+
 @-webkit-keyframes wholeHead {
     0% { top: -15px; left: 0;}
     24.99% { top: -15px; left: 0;}
@@ -82,26 +82,26 @@ a {
     100% { top: -15px; left: 0;}
 }
 
-#wholeHead{
-    position:absolute;
+#wholeHead {
+    position: absolute;
     top: -15px;
     -moz-animation: wholeHead 0.4s linear 0s infinite;
     -webkit-animation: wholeHead 0.4s linear 0s infinite;
 }
 
 #mainHead {
-	width: 80px;
-	height: 35px;
-	border-bottom-right-radius: 15px;
-	border-bottom-left-radius: 15px;
-	position:absolute;
-	z-index: 20;
-	top: 48px;
-	left: 60px;
+    width: 80px;
+    height: 35px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    position: absolute;
+    z-index: 20;
+    top: 48px;
+    left: 60px;
 }
 
 .ear {
-	width:  30px;
+    width: 30px;
     height: 20px;
     position: absolute;
     z-index: 21;
@@ -119,10 +119,10 @@ a {
 
 .eye {
     width: 5px;
-    height:5px;
+    height: 5px;
     background-color: #fff;
     position: absolute;
-    top:4px;
+    top: 4px;
     left: 17px;
     z-index: 22;
     border-right: 5px solid #000;
@@ -134,11 +134,11 @@ a {
 }
 
 .nose {
-    width:5px;
+    width: 5px;
     height: 5px;
-    background-color:#000;
-    position:absolute;
-    top:9px;
+    background-color: #000;
+    position: absolute;
+    top: 9px;
     left: 45px;
 }
 
@@ -162,8 +162,8 @@ a {
     font-family: Arial;
     font-size: 25px;
     font-weight: bold;
-    top:9px;
-    left:37px;
+    top: 9px;
+    left: 37px;
     color: #000;
 }
 
@@ -235,7 +235,7 @@ a {
 
 #wholeTail {
     top: -15px;
-    position:absolute;
+    position: absolute;
 }
 
 .tail {
@@ -249,7 +249,7 @@ a {
 
 .middleTail {
     left: -25px;
-    z-index:19;
+    z-index: 19;
     border-right: none;
     top: 52px;
     -moz-animation: midTail 0.4s linear 0s infinite;
@@ -258,7 +258,7 @@ a {
 
 .backTail {
     left: -35px;
-    z-index:19;
+    z-index: 19;
     border-right: none;
     top: 48px;
     -moz-animation: backTail 0.4s linear 0s infinite;
@@ -299,12 +299,12 @@ a {
 }
 
 .leg {
-    width:10px;
-    height:20px;
-    position:absolute;
+    width: 10px;
+    height: 20px;
+    position: absolute;
     z-index: 18;
     top: 64px;
-    left:5px;
+    left: 5px;
 }
 
 .back {
@@ -319,7 +319,7 @@ a {
 .front {
     -moz-transform: rotate(-40deg);
     -webkit-transform: rotate(-40deg);
-    left:100px;
+    left: 100px;
 }
 
 .leftFront {
@@ -361,12 +361,12 @@ a {
 }
 
 .rainbow {
-    position:absolute;
-    width:45px;
-    height:90px;
+    position: absolute;
+    width: 45px;
+    height: 90px;
     background: -moz-linear-gradient(top, #d91a12 15%, #e13300 15%, #ff7f14 16%, #f2ab03 32%, #ebc000 32%, #fade00 33%, #efff03 48%, #56fc02 49%, #52ff01 66%, #4ade7e 67%, #3baaf2 67%, #3baaf2 84%, #7337f7 84%, #6b40f2 100%); /* FF3.6+ */
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(15%,#d91a12), color-stop(15%,#e13300), color-stop(16%,#ff7f14), color-stop(32%,#f2ab03), color-stop(32%,#ebc000), color-stop(33%,#fade00), color-stop(48%,#efff03), color-stop(49%,#56fc02), color-stop(66%,#52ff01), color-stop(67%,#4ade7e), color-stop(67%,#3baaf2), color-stop(84%,#3baaf2), color-stop(84%,#7337f7), color-stop(100%,#6b40f2)); /* Chrome,Safari4+ */
-    background: -webkit-linear-gradient(top, #d91a12 15%,#e13300 15%,#ff7f14 16%,#f2ab03 32%,#ebc000 32%,#fade00 33%,#efff03 48%,#56fc02 49%,#52ff01 66%,#4ade7e 67%,#3baaf2 67%,#3baaf2 84%,#7337f7 84%,#6b40f2 100%); /* Chrome10+,Safari5.1+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(15%, #d91a12), color-stop(15%, #e13300), color-stop(16%, #ff7f14), color-stop(32%, #f2ab03), color-stop(32%, #ebc000), color-stop(33%, #fade00), color-stop(48%, #efff03), color-stop(49%, #56fc02), color-stop(66%, #52ff01), color-stop(67%, #4ade7e), color-stop(67%, #3baaf2), color-stop(84%, #3baaf2), color-stop(84%, #7337f7), color-stop(100%, #6b40f2)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #d91a12 15%, #e13300 15%, #ff7f14 16%, #f2ab03 32%, #ebc000 32%, #fade00 33%, #efff03 48%, #56fc02 49%, #52ff01 66%, #4ade7e 67%, #3baaf2 67%, #3baaf2 84%, #7337f7 84%, #6b40f2 100%); /* Chrome10+,Safari5.1+ */
     left: -40px;
     -moz-animation: rainbow1 0.3s linear 0s infinite;
     -webkit-animation: rainbow1 0.3s linear 0s infinite;
@@ -675,17 +675,17 @@ a {
 /* -- rest -- */
 
 #nyanCat {
-    position:absolute;
-    left:150px;
+    position: absolute;
+    left: 150px;
     top: 100px;
 }
 
 #mainContainer {
-    position:absolute;
-    width:500px;
-    height:300px;
+    position: absolute;
+    width: 500px;
+    height: 300px;
     border: solid #fff 3px;
-    overflow:hidden;
+    overflow: hidden;
 
 }
 
