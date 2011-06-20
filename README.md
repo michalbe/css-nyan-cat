@@ -7,4 +7,4 @@ CSS NYAN CAT was created by [Michał Budzyński](https://profiles.google.com/mic
 
 
 It contains **81 DOM elements**, **688 lines of pure CSS** and **one JavaScript function** for
-looping audio. My CSS **fails **CSSLint test and I'm really proud of this. See you on [onGameStart, first HTMl5 game conference ever](http://ongamestart.com/)!
+looping audio. My CSS **fails** CSSLint test and I'm really proud of this. See you on [onGameStart, first HTMl5 game conference ever](http://ongamestart.com/)!
